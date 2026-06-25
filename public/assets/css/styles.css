@@ -220,7 +220,6 @@ main {
   line-height: 1.3;
   /* clamp to 2 lines */
   display: -webkit-box;
-  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -255,7 +254,6 @@ main {
   color: var(--text-muted);
   line-height: 1.45;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   margin-top: 2px;
