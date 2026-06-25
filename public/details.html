@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalhes do Filme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <a href="index.html" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit">
+          <span class="logo-icon">🎬</span>
+          <h1>Catálogo<span class="logo-accent">Filmes</span></h1>
+        </a>
+      </div>
+      <a href="index.html" class="back-link">← Voltar ao catálogo</a>
+    </div>
+  </header>
+
+  <main>
+    <p id="message" class="message"></p>
+    <div id="details-container"></div>
+  </main>
+
+  <footer>
+    <p>Dados fornecidos por <a href="https://www.themoviedb.org" target="_blank">The Movie Database (TMDB)</a></p>
+  </footer>
+
+  <script src="details.js"></script>
+</body>
+</html>
