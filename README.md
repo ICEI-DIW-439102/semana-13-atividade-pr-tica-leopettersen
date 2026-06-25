@@ -9,3 +9,11 @@
 
 **Print da tela com a implementação**
 
+- Preview:
+![curPreview](public/assets/imgs/preview.png)
+
+- Preview página de Detalhes:
+![curPreviewDetalhes](public/assets/imgs/previewDetalhes.png)
+
+- Preview busca:
+![curPreviewBusca](public/assets/imgs/previewBusca.png)
