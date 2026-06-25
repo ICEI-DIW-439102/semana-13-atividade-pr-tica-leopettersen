@@ -1,18 +1,161 @@
 {
-  "usuarios": [
+  "filmes": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "tmdb_id": 550,
+      "titulo": "Clube da Luta",
+      "descricaoCurta": "Um homem insatisfeito forma um clube de luta clandestino com um vendedor de sabão carismático.",
+      "descricaoCompleta": "O narrador sem nome, insone e alienado, encontra em Tyler Durden uma saída para sua vida vazia. Juntos, criam um clube de luta que evolui para algo muito mais perigoso. Um dos filmes mais impactantes dos anos 90.",
+      "imagem": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+      "categoria": "Drama",
+      "nota": 8.4,
+      "ano": 1999,
+      "duracao": 139,
+      "tags": ["cult", "psicológico", "twist", "violência"],
+      "destaque": true
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "tmdb_id": 680,
+      "titulo": "Pulp Fiction",
+      "descricaoCurta": "Histórias entrelaçadas de criminosos, um boxeador e dois pistoleiros em Los Angeles.",
+      "descricaoCompleta": "Quentin Tarantino tece narrativas não-lineares envolvendo assassinos, um boxeador corrupto e a esposa de um gângster. Diálogos brilhantes e violência estilizada definem este clássico.",
+      "imagem": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+      "categoria": "Crime",
+      "nota": 8.5,
+      "ano": 1994,
+      "duracao": 154,
+      "tags": ["cult", "nonlinear", "tarantino", "crime"],
+      "destaque": true
+    },
+    {
+      "id": 3,
+      "tmdb_id": 238,
+      "titulo": "O Poderoso Chefão",
+      "descricaoCurta": "A saga de uma família mafiosa italiana nos Estados Unidos.",
+      "descricaoCompleta": "Vito Corleone, patriarca de uma família mafiosa, transfere o controle de seu império para o filho relutante Michael. Uma obra-prima de Francis Ford Coppola sobre poder, família e lealdade.",
+      "imagem": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsLe1rhdoF0J2.jpg",
+      "categoria": "Crime",
+      "nota": 9.2,
+      "ano": 1972,
+      "duracao": 175,
+      "tags": ["clássico", "máfia", "família", "oscar"],
+      "destaque": true
+    },
+    {
+      "id": 4,
+      "tmdb_id": 13,
+      "titulo": "Forrest Gump",
+      "descricaoCurta": "A vida extraordinária de um homem simples que testemunha momentos históricos dos EUA.",
+      "descricaoCompleta": "Forrest Gump, um homem com QI baixo mas coração enorme, atravessa décadas da história americana quase sem perceber — da Guerra do Vietnã ao ping-pong com a China. Tom Hanks em performance inesquecível.",
+      "imagem": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+      "categoria": "Drama",
+      "nota": 8.5,
+      "ano": 1994,
+      "duracao": 142,
+      "tags": ["emocionante", "histórico", "tom-hanks", "oscar"],
+      "destaque": false
+    },
+    {
+      "id": 5,
+      "tmdb_id": 155,
+      "titulo": "Batman: O Cavaleiro das Trevas",
+      "descricaoCurta": "Batman enfrenta o Coringa, um agente do caos que quer destruir Gotham.",
+      "descricaoCompleta": "Christopher Nolan eleva o gênero de super-herói a outro nível. Heath Ledger entrega uma performance lendária como o Coringa, enquanto Batman enfrenta seu maior desafio moral e físico.",
+      "imagem": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "categoria": "Ação",
+      "nota": 9.0,
+      "ano": 2008,
+      "duracao": 152,
+      "tags": ["super-herói", "nolan", "heath-ledger", "ação"],
+      "destaque": true
+    },
+    {
+      "id": 6,
+      "tmdb_id": 27205,
+      "titulo": "A Origem",
+      "descricaoCurta": "Um ladrão especialista em roubar segredos dentro dos sonhos recebe uma missão impossível.",
+      "descricaoCompleta": "Dom Cobb lidera uma equipe que penetra nos sonhos das pessoas para extrair informações. Agora ele precisa fazer o oposto: plantar uma ideia. Nolan no auge da ficção científica cerebral.",
+      "imagem": "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
+      "categoria": "Ficção Científica",
+      "nota": 8.8,
+      "ano": 2010,
+      "duracao": 148,
+      "tags": ["nolan", "sonhos", "complexo", "ficção-científica"],
+      "destaque": false
+    },
+    {
+      "id": 7,
+      "tmdb_id": 11216,
+      "titulo": "Cinema Paradiso",
+      "descricaoCurta": "Um diretor famoso recorda sua infância e o projectista que o ensinou a amar o cinema.",
+      "descricaoCompleta": "Salvatore retorna à sua cidade natal após décadas ausente e recorda sua amizade com Alfredo, o velho projectista que moldou seu amor pelo cinema. Um poema visual sobre nostalgia e arte.",
+      "imagem": "https://image.tmdb.org/t/p/w500/gCI2AeMV6IHgaDuBOdJIT7ZiEMY.jpg",
+      "categoria": "Drama",
+      "nota": 8.5,
+      "ano": 1988,
+      "duracao": 155,
+      "tags": ["itália", "nostalgia", "arte", "clássico"],
+      "destaque": false
+    },
+    {
+      "id": 8,
+      "tmdb_id": 424,
+      "titulo": "A Lista de Schindler",
+      "descricaoCurta": "Um empresário alemão salva mais de mil judeus durante o Holocausto.",
+      "descricaoCompleta": "Oskar Schindler, membro do Partido Nazista, usa sua fábrica para salvar judeus da morte certa. Spielberg dirige seu filme mais sério e impactante, filmado em preto e branco.",
+      "imagem": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+      "categoria": "Drama",
+      "nota": 9.0,
+      "ano": 1993,
+      "duracao": 195,
+      "tags": ["holocausto", "história", "spielberg", "oscar"],
+      "destaque": true
+    },
+    {
+      "id": 9,
+      "tmdb_id": 98,
+      "titulo": "Gladiador",
+      "descricaoCurta": "Um general romano traído busca vingança como gladiador nas arenas do Império.",
+      "descricaoCompleta": "Maximus era o general mais temido de Roma até ser traído pelo filho do imperador. Escravizado e forçado a lutar nas arenas, ele busca justiça. Ridley Scott em grande forma épica.",
+      "imagem": "https://image.tmdb.org/t/p/w500/ty8TGRuvAbf3F5oEBHKg1CKskaR.jpg",
+      "categoria": "Ação",
+      "nota": 8.5,
+      "ano": 2000,
+      "duracao": 155,
+      "tags": ["roma", "épico", "vingança", "russell-crowe"],
+      "destaque": false
+    },
+    {
+      "id": 10,
+      "tmdb_id": 603,
+      "titulo": "Matrix",
+      "descricaoCurta": "Um hacker descobre que a realidade é uma simulação controlada por máquinas.",
+      "descricaoCompleta": "Neo acredita ser um programador comum até descobrir a verdade sobre o mundo: tudo é uma simulação. As irmãs Wachowski criam um dos filmes de ficção científica mais influentes da história.",
+      "imagem": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+      "categoria": "Ficção Científica",
+      "nota": 8.7,
+      "ano": 1999,
+      "duracao": 136,
+      "tags": ["simulação", "cyberpunk", "ação", "cult"],
+      "destaque": true
     }
+  ],
+  "categorias": [
+    { "id": 1, "nome": "Ação",            "icone": "💥" },
+    { "id": 2, "nome": "Drama",           "icone": "🎭" },
+    { "id": 3, "nome": "Crime",           "icone": "🔫" },
+    { "id": 4, "nome": "Ficção Científica","icone": "🚀" },
+    { "id": 5, "nome": "Comédia",         "icone": "😂" },
+    { "id": 6, "nome": "Terror",          "icone": "👻" }
+  ],
+  "favoritos": [
+    { "id": 1, "filmeId": 550 },
+    { "id": 2, "filmeId": 155 }
+  ],
+  "avaliacoes": [
+    { "id": 1, "filmeId": 550, "usuario": "leo", "nota": 5, "comentario": "Obra-prima absoluta." },
+    { "id": 2, "filmeId": 680, "usuario": "leo", "nota": 5, "comentario": "Tarantino no auge." },
+    { "id": 3, "filmeId": 155, "usuario": "leo", "nota": 4, "comentario": "Heath Ledger lendário." }
   ]
 }
